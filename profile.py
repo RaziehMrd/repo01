@@ -29,7 +29,7 @@ with col1:
     st.write(f"**Institution:** {institution}")
 
 with col2:
-    st.image('image.jpg')
+    st.image('Image.jpg')
 
 # Add a section for publications
 st.header("Publications")
