@@ -29,9 +29,7 @@ with col1:
     st.write(f"**Institution:** {institution}")
 
 with col2:
-    Image.open('image.jpg')
-    st.image('image.jpg', caption=None, width=None, use_column_width=None, clamp=False, channels='RGB', output_format='auto')
-    print("")
+    st.image('image.jpg')
 
 # Add a section for publications
 st.header("Publications")
